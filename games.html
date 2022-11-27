@@ -1,0 +1,43 @@
+<html>
+	<head>
+	<link rel="stylesheet" type="text/css" href="games.css"/>
+			
+							<script>
+				window.addEventListener("load", () => {
+  const loader = document.querySelector(".loader");
+
+  loader.classList.add("loader--hidden");
+
+  loader.addEventListener("transitionend", () => {
+    document.body.removeChild(loader);
+  });
+});
+							</script>
+	</head>
+		<body>
+				<div class="loader loader--hidden"></div>			
+			<div class="textfront">
+				<h1>Games<h1>
+			</div>
+		
+		<div class="glowtext">
+			<ul>
+				<li style="--clr:#00ade1">
+					<a href="" data-text="&nbsp;Home">&nbsp;Home&nbsp;</a>
+				</li>
+				<li style="--clr:#00dc82">
+					<a href="" data-text="&nbsp;Games">&nbsp;Games&nbsp;</a>
+				</li>
+				<li style="--clr:#dc00d4">
+					<a href="" data-text="&nbsp;Dev">&nbsp;Dev&nbsp;</a>
+				</li>
+			</ul>
+			</div>
+			
+			<div class="container">
+				<div class="gtasa">
+					<h2 class="toptext">Testing Text</h2>
+				</div>
+			</div>
+		<body>
+</html>
