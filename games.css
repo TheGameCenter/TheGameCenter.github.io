@@ -118,25 +118,30 @@ Var Glowing Text End
 	0 0 40px #00dc82;
 }
 
+.cb {
+	text-decoration: none;
+	color: #dc00d4;
+}
+
 .container {
 	margin: 155px;
 	padding: 5px;
 	text-align: center;
 	border: 1px solid #dc00d4;
 	border-radius: 10px;
-
+	color: #00ade1;
 }
 
 .container:hover{
   border: 1px solid #dc00d4;
-  color: #ff7a59;
+  color: #00ade1;
   box-shadow: 0px 0px 4px #dc00d4;
  // Adds drop shadow to all text aswell, unwanted. ::: filter: drop-shadow(0 0 25px #dc00d4);
  // Gets rid of border, try messing with anims in regards to opacity ::: transition: box-shadow linear 1s;
 }
 
 .gtasa {
-	color: #fff;
+	color: #00ade1;
 }
 
 .toptext {
@@ -145,4 +150,19 @@ Var Glowing Text End
 	filter: drop-shadow(0 0 25px var(--clr));
 	padding: 0px;
 	margin: 0px;
+}
+
+.webgames {
+	margin: 155px;
+	padding: 5px;
+	text-align: center;
+	color: #00ade1;
+	border: 1px solid #dc00d4;
+	border-radius: 10px;
+}
+
+.webgames:hover {
+  border: 1px solid #dc00d4;
+  color: #00ade1;
+  box-shadow: 0px 0px 4px #dc00d4;
 }
