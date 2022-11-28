@@ -1,0 +1,8 @@
+Complete Games Page
+Link Dino Game in Games Page
+Create Services Page
+Complete Services Page
+Remake Slope Page
+Fix Slope Page
+Link Slope Page
+Compile  games.css to </styles> in games.html
