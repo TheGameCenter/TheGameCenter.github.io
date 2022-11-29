@@ -208,6 +208,12 @@ Var Glowing Text End
 	filter: drop-shadow(0 0 3px #dc00d4);
 }
 
+.games .button {
+	display: flex;
+	flex-direction: column;
+	margin: 10 px;
+}
+
 .button:hover{
 	filter: drop-shadow(0 0 10px #dc00d4);
 	transition: all 0.5s ease-out;
