@@ -9,6 +9,16 @@ body {
 	background: #0c192c;
 }
 
+#button {
+	text-decoration: none;
+	color: #dc00d4;
+	border: 1px solid #dc00d4;
+	border-radius: 50px;
+	text-decoration: none;
+	padding: 5px;
+	margin: 100px;
+}
+
 /*
 Loader Start
 */
@@ -118,9 +128,6 @@ Var Glowing Text End
 	0 0 40px #00dc82;
 }
 
-.cb {
-	text-decoration: none;
-	color: #dc00d4;
 }
 
 .container {
@@ -133,16 +140,13 @@ Var Glowing Text End
 }
 
 .container:hover{
-  border: 1px solid #dc00d4;
-  color: #00ade1;
-  box-shadow: 0px 0px 4px #dc00d4;
+ /* box-shadow: 0px 0px 4px #dc00d4;
+  border-radius: 10px;
+  display: faster; */
  // Adds drop shadow to all text aswell, unwanted. ::: filter: drop-shadow(0 0 25px #dc00d4);
  // Gets rid of border, try messing with anims in regards to opacity ::: transition: box-shadow linear 1s;
 }
 
-.gtasa {
-	color: #00ade1;
-}
 
 .toptext {
 	text-align: center;
@@ -150,6 +154,23 @@ Var Glowing Text End
 	filter: drop-shadow(0 0 25px var(--clr));
 	padding: 0px;
 	margin: 0px;
+	text-shadow: 0 0 20px #ff6057;
+	
+}
+
+.games {
+	margin: 155px;
+	padding: 5px;
+	text-align: center;
+	color: #00ade1;
+	border: 1px solid #dc00d4;
+	border-radius: 10px;
+}
+
+.games:hover {
+  border: 1px solid #dc00d4;
+  color: #00ade1;
+  box-shadow: 0px 0px 4px #dc00d4;
 }
 
 .webgames {
@@ -167,3 +188,32 @@ Var Glowing Text End
   box-shadow: 0px 0px 4px #dc00d4;
 }
 
+.button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	position: relative;
+	display: inline-block;
+	padding: 12px 36px;
+	margin: 10px 0;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 18px;
+	letter-spacing: 2px;
+	border-radius: 40px;
+	background: #dc00d4;
+	overflow: hidden;
+	filter: drop-shadow(0 0 3px #dc00d4);
+}
+
+.button:hover{
+	filter: drop-shadow(0 0 10px #dc00d4);
+	transition: all 0.5s ease-out;
+}
+
+.button:active{
+	filter: drop-shadow(0 0 7px #dc00d4);
+	transition: all 0.5s ease-out;
+}
