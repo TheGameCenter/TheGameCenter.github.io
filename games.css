@@ -118,14 +118,11 @@ Var Glowing Text End
 	filter: drop-shadow(0 0 25px var(--clr));
 	padding: 0px;
 	margin: 0px;
-    // text-shadow: 0 0 20px #ff6057;
 	filter: drop-shadow(0 0 15px #ff6057);
 }
 
 .img {
     box-shadow: 0 0 10px #00dc82;
-	0 0 20px #00dc82;
-	0 0 40px #00dc82;
 }
 
 }
@@ -140,11 +137,7 @@ Var Glowing Text End
 }
 
 .container:hover{
- /* box-shadow: 0px 0px 4px #dc00d4;
-  border-radius: 10px;
-  display: faster; */
- // Adds drop shadow to all text aswell, unwanted. ::: filter: drop-shadow(0 0 25px #dc00d4);
- // Gets rid of border, try messing with anims in regards to opacity ::: transition: box-shadow linear 1s;
+
 }
 
 
