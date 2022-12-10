@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Issue installing games | The Game Center</title>
+    <link rel="stylesheet" type="text/css" href="helpinstall.css"/>
+        <style>
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	min-height: 100vh;
+	background: #0c192c;
+}
+
+.glowtext {
+	display: flex;
+	font-family: 'Poppins', sans-serif;
+}
+
+ul {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+
+ul li {
+	position: relative;
+	list-style: none;
+	transform: translate(0, 1000%);
+}
+
+ul li a {
+	position: relative;
+	font-size: 2em;
+	text-decoration: none;
+	line-height: 1em;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: transparent;
+	-webkit-text-stroke: 1px rgba(255,255,255,0.5);
+}
+
+ul li a::before {
+	content: attr(data-text);
+	position: absolute;
+	color: #fff;
+	width: 0%;
+	overflow: hidden;
+	transition: 1s;
+	border-right: 8px solid var(--clr);
+	-webkit-text-stroke: 1px var(--clr);
+}
+
+ul li a:hover::before {
+	width: 100%;
+	filter: drop-shadow(0 0 25px var(--clr));
+}
+
+.textfront {
+	text-align: center;
+	color: 	#ff6057;
+	filter: drop-shadow(0 0 25px var(--clr));
+	padding: 0px;
+	margin: 0px;
+	filter: drop-shadow(0 0 15px #ff6057);
+}
+
+.img {
+    box-shadow: 0 0 10px #00dc82;
+}
+
+.container {
+    color: #fff;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.container strong {
+    font-size: 2rem;
+}
+        </style>
+</head>
+<body>
+    <div class="textfront">
+        <h1>Games<h1>
+    </div>
+
+<div class="glowtext">
+    <ul>
+        <li style="--clr:#00ade1">
+            <a href="https://thegamecenter.github.io" data-text="&nbsp;Home">&nbsp;Home&nbsp;</a>
+        </li>
+        <li style="--clr:#00dc82">
+            <a href="https://thegamecenter.github.io/games" data-text="&nbsp;Games">&nbsp;Games&nbsp;</a>
+        </li>
+        <li style="--clr:#dc00d4">
+            <a href="https://thegamecenter.github.io/dev" data-text="&nbsp;Dev">&nbsp;Dev&nbsp;</a>
+        </li>
+    </ul>
+    </div>
+    <div class="container">
+        <strong>What do I do after downloading a file from us?</strong><br></br>
+    <p class="text">After downloading a file, right click on the file > 7-Zip > Extract to %foldername%</p><br></br>
+    <img src="../assets/images/index/img2.png"><br></br>
+    <p class="text">Done! Just open the extracted folder and open the program/game!</p><br></br>
+    <strong>Not being able to access download links</strong>
+    <p class="text">This is an rather unfortunate error, however we can get past it.<br></br>
+    You'll end up having to create a new G-Mail account if you're using google drive, <br></br>or install the file at your house
+    rather than somewhere such as school. Many schools try to block websites such as this website and; or try to stop
+    game distribution.<br></br></p>
+    </div>
+</body>
+</html>
