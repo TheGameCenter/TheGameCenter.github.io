@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap')
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	min-height: 100vh;
+	background: #0c192c;
+	overflow-x: hidden;
+}
+
+
+/*
+Loader Start
+*/
+.loader {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #0c192c;
+}
+
+.loader--hidden {
+	opacity: 0;
+	visibility: hidden;
+}
+
+.loader::after {
+	content: "";
+	width: 75px;
+	height: 75px;
+	border: 15px solid #ddd;
+	border-top-color: #ff6057;
+	border-radius: 50%;
+	animation: loading 0.75s ease infinite;
+	transition: opacity 0.75s, visibility 0.75s;
+}
+
+@keyframes loading {
+	from { transform: rotate(0turn)}
+	to { transform: rotate(1turn)}
+}
+
+/*
+Var Loading Stop
+*/
+
+/*
+Glowing Text Start
+*/
+
+.glowtext {
+	display: flex;
+	font-family: 'Poppins', sans-serif;
+}
+
+ul {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+
+ul li {
+	position: relative;
+	list-style: none;
+	transform: translate(0, 1000%);
+}
+
+ul li a {
+	position: relative;
+	font-size: 2em;
+	text-decoration: none;
+	line-height: 1em;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: transparent;
+	-webkit-text-stroke: 1px rgba(255,255,255,0.5);
+}
+
+ul li a::before {
+	content: attr(data-text);
+	position: absolute;
+	color: #fff;
+	width: 0%;
+	overflow: hidden;
+	transition: 1s;
+	border-right: 8px solid var(--clr);
+	-webkit-text-stroke: 1px var(--clr);
+}
+
+ul li a:hover::before {
+	width: 100%;
+	filter: drop-shadow(0 0 25px var(--clr));
+}
+
+/*
+Var Glowing Text End
+*/
+
+/*
+Bubbles Start
+*/
+.contaienr {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	min-height: 30px;
+	min-width: 30px;
+}
+
+.bubbles {
+	position: relative;
+	display: flex;
+}
+
+.bubbles span {
+	width: 30px;
+	height: 30px;
+	min-width: 30px;
+	min-height: 30px;
+	background: #4fc3dc;
+	margin: 0 3px;
+	border-radius: 50%;
+	box-shadow: 0 0 0 10px #4fc3dc44,
+	0 0 50px #4fc3dc,
+	0 0 100px #4fc3dc;
+	animation: animate 15s linear infinite;
+	animation-duration: calc(200s / var(--i));
+}
+
+.bubbles span:nth-child(even) {
+	background: #ff2d75;
+	box-shadow: 0 0 0 10px #ff2d7544,
+	0 0 50px #ff2d75,
+	0 0 100px #ff2d75;
+}
+
+@keyframes animate {
+	0% {
+		transform: translateY(100vh) scale(0);
+	}
+	0% {
+		transform: translateY(100vh) scale(0);
+		}
+	100% {
+		transform: translateY(-10vh) scale(1);
+	}
+}
+
+/*
+Bubbles End
+*/
+
+.textfront {
+	text-align: center;
+	color: 	#ff6057;
+	filter: drop-shadow(0 0 25px var(--clr));
+	padding: 0px;
+	margin: 0px;
+	filter: drop-shadow(0 0 15px #ff6057);
+}

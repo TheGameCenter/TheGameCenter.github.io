@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.gameslope {
+	filter: drop-shadow(0 0 5px #000);
+}
+    
+	/*
+Glowing Text Start
+*/
+
+.glowtext {
+	display: flex;
+	font-family: 'Poppins', sans-serif;
+}
+
+ul {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+
+ul li {
+	position: relative;
+	list-style: none;
+	transform: translate(0, 1000%);
+}
+
+ul li a {
+	position: relative;
+	font-size: 2em;
+	text-decoration: none;
+	line-height: 1em;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: transparent;
+	-webkit-text-stroke: 1px rgba(255,255,255,0.5);
+}
+
+ul li a::before {
+	content: attr(data-text);
+	position: absolute;
+	color: #fff;
+	width: 0%;
+	overflow: hidden;
+	transition: 1s;
+	border-right: 8px solid var(--clr);
+	-webkit-text-stroke: 1px var(--clr);
+}
+
+ul li a:hover::before {
+	width: 100%;
+	filter: drop-shadow(0 0 25px var(--clr));
+}
+
+/*
+Var Glowing Text End
+*/
+
+.textfront {
+	text-align: center;
+	color: 	#ff6057;
+	filter: drop-shadow(0 0 25px var(--clr));
+	padding: 0px;
+	margin: 0px;
+	 text-shadow: 0 0 20px #ff6057;
+}
+
+	
+      #game {
+    color:black;
+    font-size:22px;
+    position:absolute;
+    padding:7px;
+    top:1%;
+    right:14;
+	float: center;
+          
+    }    
+           
+     .items {
+    text-decoration:none;
+    font-family: 'Roboto', sans-serif;
+    
+    }
+  
+
+    #top {
+      color: #0c192c;
+
+    }
+
+    body {
+			background: #0c192c;
+
+    }
