@@ -1,0 +1,1 @@
+flappyPhaserGame=()=>{let e=Object.values(document.querySelector("#phaser-bouncy"))[0].stateNode;return e[Object.keys(e).filter((e=>e.includes("reactInternalInstance")))].return},setInterval((()=>{try{flappyPhaserGame().stateNode.state.game.scene.children.list.filter((e=>"pipe"==e.texture?.key)).map((e=>{e.scaleY=.1,e.y=0}))}catch{}}));
