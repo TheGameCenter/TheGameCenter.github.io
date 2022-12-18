@@ -59,6 +59,7 @@ Glowing Text Start
 .glowtext {
 	display: flex;
 	font-family: 'Poppins', sans-serif;
+	z-index: -100;
 }
 
 ul {
@@ -111,8 +112,13 @@ Var Glowing Text End
 	filter: drop-shadow(0 0 25px var(--clr));
 	padding: 0px;
 	margin: 0px;
-    // text-shadow: 0 0 20px #ff6057;
 	filter: drop-shadow(0 0 15px #ff6057);
+}
+
+.base {
+	position: absolute;
+	z-index: 100;
+	transform: translate(4rem, -4rem);
 }
 
 .description {
