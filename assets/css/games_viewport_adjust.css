@@ -1,0 +1,16 @@
+@media only screen and (max-width: 1400px) { /*Just adjusts elements to fit screen size of 1400px or less, need to add more later*/
+
+    .navbar .navbar-shape {
+        padding: 0!important;
+        width: 200%!important;
+        height: 7.5vh!important;
+    }
+
+    .container .safe-area {
+        width: 134vw;
+        height: 140vh;
+        margin-top: 1em; margin-right: 3em; margin-bottom: 3em; margin-left: 3em;
+        z-index: 1!important;
+    }
+
+  }

@@ -47,6 +47,7 @@ body {
         }
 
             .navbar {
+                width: 100%!important;
                 position: sticky!important;
                 top: 0!important;
                 z-index: 30!important;
