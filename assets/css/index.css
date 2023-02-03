@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
 * {
 	box-sizing: border-box;
@@ -145,9 +145,6 @@ Bubbles Start
 @keyframes animate {
 	0% {
 		transform: translateY(100vh) scale(0);
-	}
-	0% {
-		transform: translateY(100vh) scale(0);
 		}
 	100% {
 		transform: translateY(-10vh) scale(1);
@@ -165,4 +162,38 @@ Bubbles End
 	padding: 0px;
 	margin: 0px;
 	filter: drop-shadow(0 0 15px #ff6057);
+}
+
+.ytModel .ytBox {
+    position: absolute; 
+    bottom: 0;
+    right: 0;
+    padding: 2.5em;
+    padding-right: 12em;
+    padding-left: 12em;
+    margin: 1em;
+    border-radius: 5px;
+}
+
+.ytBox .ytBtn {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 1em;
+    padding-right: 8.1555em;
+    padding-left: 8.1555em;
+    background: #50C878;
+    margin: 1em;
+    border-radius: 5px;
+    color: white;
+    display: inline-block;
+    white-space: nowrap;  
+    text-align: center;
+	filter: drop-shadow(2px 2px 8px #50c878);
+    transition: all 150ms ease-in-out;
+}
+
+.ytBox .ytBtn:hover {
+    transform: scale(1.05);
+    background: #4bb86f;
 }
