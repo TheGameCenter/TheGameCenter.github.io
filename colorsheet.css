@@ -1,0 +1,18 @@
+:root {
+    /* COLORS */
+    --white: white;
+    --bg: rgba(27, 27, 27, 1);
+    --ktTheme: #7f52ff;
+
+    /* ANIMATION SETTINGS */
+    --typeSpeed: 2s;
+    --blinkSpeed: 1000ms;
+    --charSteps: 18;
+    --preWait: 1s;
+
+    --YaxisDown: 3rem;
+
+    --ErrurlSteps: 16;
+}
+
+/* If you see this; just note this is for future changes of the website :) Will take a bit for development though. */

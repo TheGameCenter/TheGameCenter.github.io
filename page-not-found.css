@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    min-height: 100vh;
+    background: var(--bg)
+}
+
+:is(:link, :visited, a, a:active, ul, li) {
+    color: inherit!important;
+    text-decoration: none;
+}
+
+.header {
+    padding: 0.45em;
+    margin-bottom: 3em;
+    background: var(--ktTheme);
+    display: flex;
+}
+
+.header a {
+    display: inline;
+    flex: 1 1 auto;
+    text-align: center;
+    color: #E8F0FE !important;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.2;
+}
+
+h1.type {
+    font-size: clamp(1rem, 3vw + 1rem, 3rem);
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    width: max-content;
+    color: white;
+}
+
+h1.type::before,
+h1.type::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+h1.type::before {
+    background: var(--bg);
+    animation: type var(--typeSpeed) steps(var(--ErrurlSteps)) var(--preWait) forwards;
+}
+
+h1.type::after {
+    width: 0.125em;
+    background: var(--ktTheme);
+    animation: type var(--typeSpeed) steps(var(--ErrurlSteps)) var(--preWait) forwards,
+    blink var(--blinkSpeed) steps(var(--ErrurlSteps)) infinite;
+}
+
+.subtitle {
+    color: var(--ktTheme)!important;
+    font-size: 2rem;
+    font-weight: 400;
+    margin: auto;
+    margin-top: 1em;
+    text-align: center;
+    opacity: 0;
+    transform: translateY(var(--YaxisDown));
+    animation: fadeUp 2s ease calc(var(--typeSpeed) + 1100ms) forwards;
+}
+
+@keyframes type {
+    to {
+     left: 100%;
+    }
+}
+
+@keyframes blink {
+    to {
+        background: transparent;
+    }
+}
+
+@keyframes fadeUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+dialog {
+    margin: auto;
+    margin-top: 1em;
+}
