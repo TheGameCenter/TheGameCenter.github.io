@@ -23,3 +23,4 @@ Note that I am rather busy, so development of the website in only my free-time w
 - New Desktop Games
 - New Web Games
 - New Applications
+- Help Page
