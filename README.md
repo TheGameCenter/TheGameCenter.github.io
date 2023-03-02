@@ -8,3 +8,18 @@ The reason why there has barely been any activity with the website is because I 
 **TL;DR:** I want to re-create the whole website from scratch for a better experience for the user.
 
 Note that I am rather busy, so development of the website in only my free-time will take a bit. I may also use bootstrap for the first time in a actual project, the column function may come in handy :>
+
+# What to expect
+
+- New Interface
+- Fixed Pages eg. 'Prodigy Scripts'
+- Updated Software and; or Games
+
+**What may be included?**
+
+- Blog Page
+- Tutorials
+- Archietecture of Software and Programming Languages eg. Java 
+- New Desktop Games
+- New Web Games
+- New Applications
