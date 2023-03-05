@@ -24,3 +24,5 @@ Note that I am rather busy, so development of the website in only my free-time w
 - New Web Games
 - New Applications
 - Help Page
+
+Note that anyone may feel free to fork, this is just a little project and I'm fine with others benefitting from my work ;)
