@@ -27,7 +27,10 @@ Note that I am rather busy, so development of the website in only my free-time w
 
 Note that anyone may feel free to fork, this is just a little project and I'm fine with others benefitting from my work ;)
 
-
+Note that I am working on the website daily eg.
+3/10/23 Redjusting website file layouts and directories
+3/11/23 Establishing webpages that will be included and working on backend stuff /+ administration
+3/12/23 after 3/11/23: Fix web pages light/dark theme, fix links, make work on help center, work on downloads page
 Preview / Main Layout Image:
 
 ![](https://raw.githubusercontent.com/TheGameCenter/TheGameCenter.github.io/main/img/chrome_pozFXVT4Ed.png)
