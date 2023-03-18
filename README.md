@@ -36,3 +36,32 @@ Preview / Main Layout Image:
 ![](https://raw.githubusercontent.com/TheGameCenter/TheGameCenter.github.io/main/img/chrome_pozFXVT4Ed.png)
 
 **Not yet released.**
+
+# What's the progress report?
+**I will update this list once every 7 days or so.**
+
+## 3/17/23
+- File system completely redone
+- Website now on uses variables for colors
+- Index page done
+- All JS main functions completely done
+- Downloads page ~90% done
+- Light / Dark mode switcher
+- User preferences eg. themes saved to local storage
+- Main theme / layout
+- Script page assets ~80% done
+- Script pages are in progress, ~20% done
+- SVGs / images / core media created
+- More games and software added
+- Webpages fully responsive, and no overflow bugs
+- Added to Google Analytics 
+- Using Firebase API for admin login system
+- Missing Page Links fixed 
+- Prodigy Scripts added
+- Blooket Scripts added
+- Shell Shockers Scripts added
+- Added proper 404 page
+- Added a custom redirect page for link redirecting
+- Added platform support indicators for downloads
+
+Repository and Website owned, maintaiend, and updated solo by 'Jayden' @ The Game Center 2023
