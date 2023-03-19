@@ -40,6 +40,13 @@ Preview / Main Layout Image:
 # What's the progress report?
 **I will update this list once every 7 days or so.**
 
+## 3/19/23
+- Finished downloads page
+- Fixed all links
+- Fixed 95% of in-resonsive web pages
+- Added android-support for many applications
+- Added pages for downloads
+
 ## 3/17/23
 - File system completely redone
 - Website now on uses variables for colors
