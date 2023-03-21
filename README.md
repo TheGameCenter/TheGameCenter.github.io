@@ -38,7 +38,11 @@ Preview / Main Layout Image:
 **Not yet released.**
 
 # What's the progress report?
+## Note that these "progress reports" are not publicly released until they have "(RELEASED)" next to them.
 **I will update this list once every 7 days or so.**
+
+(3/21/23)
+I am starting to get more motivated due to me realising that over 40+ unique users visit my site on the span of 12 hours, when I thought it was only a few of my classmates whom used this website, therefore I am starting to really work on The Game Center and improving it overall. I'm either doing homework, or working on this website, not much more. The reason why I'm not releasing everything after I finish said object; eg. a webpage is because I always tamper with EVERYTHING multiple times even after I say "Yup, this page looks good and is responsive" and I make easily over 100+ file edits a day, therefore it would just be lot easier for me to post everything at once. Plus, it would be weird having an iconsistant theme across a multitude of web pages. Same applies with colors, as the current public theme is more of a bluish, while the new theme is a red and gray theme.
 
 ## 3/19/23
 - Finished downloads page
