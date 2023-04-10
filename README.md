@@ -1,3 +1,7 @@
+# MAJOR!
+There will not be any new updates for a while, as I want this to be a huge website, and I'm currently taking the Harvard CS50 course, learning Flask w/ Python, Flask Socket.IO, and other backend stuff. This is mainly because I'm adding a lot of server / backend site functions, I plan to buy a raspberry PI for hosting, and that programming is difficult. However, I enjoy this stuff despite me being only 13. This may include a blog post part of the site where anyone can post blogs, a chatting chatroom section which allows users to chat with eachother via live messengaing, more games, more web games, etc.
+
+
 # TheGameCenter.github.io
  The Game Center offers unblocked games which does not require administrator or really anything to run, and that are adjusted for lower-end computers or laptops. Things such as Grand Theft Auto, Minecraft, or many types of web game applications that are completely free to download! * Please Star!  
  
