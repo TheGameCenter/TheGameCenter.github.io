@@ -1,5 +1,7 @@
 # MAJOR!
-There will not be any new updates for a while, as I want this to be a huge website, and I'm currently taking the Harvard CS50 course, learning Flask w/ Python, Flask Socket.IO, and other backend stuff. This is mainly because I'm adding a lot of server / backend site functions, I plan to buy a raspberry PI for hosting, and that programming is difficult. However, I enjoy this stuff despite me being only 13. This may include a blog post part of the site where anyone can post blogs, a chatting chatroom section which allows users to chat with eachother via live messengaing, more games, more web games, etc.
+Due to my aspiration of creating a comprehensive website with extensive server/backend functions, including a blog section allowing users to post blogs, live messaging chatroom, additional games, web games, and more, there will be a temporary cessation of new updates. Currently, I am enrolled in the Harvard CS50 course, I am learning Flask with Python, Flask Socket.IO, and other backend-related materials. Moreover, I intend to host the website on a Raspberry PI, although challenging, it is a subject I enjoy pursuing despite being only 13 years old. As part of my website's feature-rich objectives, a public Discord, cloaker features, and more will also be available.
+
+In Layman's terms, there will not be any new updates for a while due to my passion of creating a high-quality website.
 
 
 # TheGameCenter.github.io
