@@ -1,7 +1,8 @@
 # MAJOR!
-Due to my aspiration of creating a comprehensive website with extensive server/backend functions, including a blog section allowing users to post blogs, live messaging chatroom, additional games, web games, and more, there will be a temporary cessation of new updates. Currently, I am enrolled in the Harvard CS50 course, I am learning Flask with Python, Flask Socket.IO, and other backend-related materials. Moreover, I intend to host the website on a Raspberry PI, although challenging, it is a subject I enjoy pursuing despite being only 13 years old. As part of my website's feature-rich objectives, a public Discord, cloaker features, and more will also be available.
 
-In Layman's terms, there will not be any new updates for a while due to my passion of creating a high-quality website.
+This project is nearly two years old, and note that I usually don't have that much time, this website was originally made so I could have cracked game download links to share with one of my computing classes in 2022 so I woudn't be tracked by my school's email system, and I wanted to test my HTML and CSS stills, which at that time was quite.. "garbage", I'd say. I rarely have spare freetime, I do have a job, I am a solo developer, and I am still in school, which is quite heavy for my shecule for me to set aside to create a clean looking website. Also I appreciate all the Australians and Japanese users, the U.S. is the source of where this began, and I appreciate all the users from Australia and Japan <3 
+I'm not sure when this website will be updated, but hopefully it'll be done by sometime in 2024.
+(11/27/23)
 
 
 # TheGameCenter.github.io
@@ -13,13 +14,7 @@ The reason why there has barely been any activity with the website is because I 
 
 **TL;DR:** I want to re-create the whole website from scratch for a better experience for the user.
 
-Note that I am rather busy, so development of the website in only my free-time will take a bit. I may also use bootstrap for the first time in a actual project, the column function may come in handy :>
-
-# What to expect
-
-- New Interface
-- Fixed Pages eg. 'Prodigy Scripts'
-- Updated Software and; or Games
+Note that I am rather busy, so development of the website in only my free-time will take a bit.
 
 **What may be included?**
 
@@ -49,6 +44,18 @@ Preview / Main Layout Image:
 
 (3/21/23)
 I am starting to get more motivated due to me realising that over 40+ unique users visit my site on the span of 12 hours, when I thought it was only a few of my classmates whom used this website, therefore I am starting to really work on The Game Center and improving it overall. I'm either doing homework, or working on this website, not much more. The reason why I'm not releasing everything after I finish said object; eg. a webpage is because I always tamper with EVERYTHING multiple times even after I say "Yup, this page looks good and is responsive" and I make easily over 100+ file edits a day, therefore it would just be lot easier for me to post everything at once. Plus, it would be weird having an iconsistant theme across a multitude of web pages. Same applies with colors, as the current public theme is more of a bluish, while the new theme is a red and gray theme.
+
+(11/27/23)
+135k visits, getting close to 150k! I wish I would have more time to work on TGC!! Note that the website is already huge, it has 850+ files including assets, HTML, CSS, and JS. It's going to be hell uploading it to github when I'm done, not sure how that's going to go.
+
+## 11/27/23
+- Made 99% of pages responsive (still working on high resolutions)
+- Games sections of downloads are completely done
+- Made cloaker settings, to hide browsing hisotry from school disgusting eg. Google Classroom
+- Tons of optimization tweaks on assets and loading methods
+- Resigned index.html
+- Removed Blooket scripts since they don't work anymore :l
+- In process of updating 30+ pages including help, setting up public discord, and may start uploading on our YouTube after release!
 
 ## 3/19/23
 - Finished downloads page
